@@ -1,7 +1,7 @@
 import React, {useEffect} from "react"
 import axios from 'axios';
 
-const OAuthRedirectPage = (props) => {
+const OAuthRedirectPage = () => {
 
     const code = new URL(document.location.toString()).searchParams.get('code'); // 이상한코드가한가득
 

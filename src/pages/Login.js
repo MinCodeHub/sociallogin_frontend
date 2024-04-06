@@ -9,7 +9,7 @@ const Login = () =>{
     
     return(
         <div>
-            <img src = {kakaologo} onClick={loginHandler} />
+            <img src = {kakaologo} onClick={loginHandler} alt ="카카오로그인 로고"/>
         </div>
     );
 };
